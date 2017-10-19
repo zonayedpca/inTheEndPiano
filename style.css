@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,800');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+    background-image: url('src/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.key {
+    display: inline-block;
+    width: 60px;
+    background: rgba(0, 0, 0, 0.75);
+    border: solid 1px #111;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    transition: all 0.05s;
+}
+
+.key kbd {
+    display: block;
+    font-family: 'Consolas', sans-serif;
+    font-size: 2rem;
+}
+
+.key span {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.piano {text-align: center;}
+
+.piano-main {
+    display: table;
+    width: 640px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #fff;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.piano img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.piano p {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+
+.piano p strong {
+    font-weight: 800;
+}
+
+.piano a {
+    display: inline-block;
+    background: #fff;
+    padding: 2px 10px;
+    font-weight: 800;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s all;
+}
+
+.piano a:hover {
+    transform: rotate(3deg);
+}
+
+.piano p span {
+    background: #fff;
+    color: #000;
+    display: inline-block;
+    /* height: 22px; */
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 800;
+    text-align: center;
+    /* width: 22px; */
+}
