@@ -14,8 +14,7 @@ self.addEventListener('install', function (event) {
           '/src/1.mp3',
           '/src/2.mp3',
           '/src/3.mp3',
-          '/src/4.mp3',
-          'https://fonts.googleapis.com/css?family=Raleway:400,700'
+          '/src/4.mp3'
         ]);
       })
   );
