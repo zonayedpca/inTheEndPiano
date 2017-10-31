@@ -7,7 +7,13 @@ self.addEventListener('install', function (event) {
         // cache.add('/index.html');
         // cache.add('/src/js/app.js');
         cache.addAll([
-          
+          'index.html',
+          'main.js',
+          'style.css',
+          'src/1.mp3',
+          'src/2.mp3',
+          'src/3.mp3',
+          'src/4.mp3'
         ]);
       })
   );
